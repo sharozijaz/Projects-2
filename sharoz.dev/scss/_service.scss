@@ -1,0 +1,38 @@
+.service-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    // margin: 20px 50px;
+    margin: 50px;
+}
+.service-text{
+    font-weight: 700;
+    color: white;
+    font-size: 2rem;
+}
+#color-service{
+    color: #49247E;
+}
+
+// Front End
+.frontend-services{
+    width: 385px;
+height: 260px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 20px;
+}
+.frontend-content{
+background: rgba( 255, 255, 255, 0.25 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 4px );
+-webkit-backdrop-filter: blur( 4px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+
+}
+
+
+        
