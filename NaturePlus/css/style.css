@@ -187,7 +187,7 @@ a {
 } */
 .card__image {
   grid-area: image;
-  background: url("/images/alex-loup-6hgrfOJhr74-unsplash.jpg");
+  background: url(./images/alex-loup-6hgrfOJhr74-unsplash.jpg);
   background-size: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -220,7 +220,7 @@ a {
 /*! user REview Section */
 .review__section {
   margin-top: 5rem;
-  background-image: url(/images/scott-webb-hDyO6rr3kqk-unsplash.jpg);
+  background-image: url(./images/scott-webb-hDyO6rr3kqk-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
   height: 80vh;
@@ -277,19 +277,18 @@ a {
 .newsletter__container {
   display: flex;
   justify-content: center;
-
 }
 
 .newsletter__email {
   grid-area: email;
 }
-.newsletter__email input{
+.newsletter__email input {
   padding: 10px;
   border-radius: 20px 0px 0px 20px;
   border: var(--green) solid 3px;
 }
-.newsletter__email input:focus{
- outline: none;
+.newsletter__email input:focus {
+  outline: none;
 }
 .newsletter__icon {
   grid-area: icon;
@@ -308,7 +307,7 @@ a {
   margin-right: 7px;
 }
 /* Footer Section */
-.footer__section{
+.footer__section {
   display: flex;
   justify-content: space-evenly;
   background-color: var(--blackdim);
@@ -316,27 +315,26 @@ a {
   padding-top: 5rem;
   padding-bottom: 3rem;
 }
-.footer__section-logo img{
+.footer__section-logo img {
   height: 50px;
   width: auto;
 }
-.footer__menu ul{
+.footer__menu ul {
   display: flex;
   align-content: center;
   justify-content: center;
 }
-.footer__menu ul li{
-margin-left: 20px;
-
+.footer__menu ul li {
+  margin-left: 20px;
 }
-.footer__menu ul li a{
+.footer__menu ul li a {
   text-decoration: none;
   color: var(--white);
   font-weight: 700;
   font-size: 1.3rem;
 }
 
-.footer__social img{
+.footer__social img {
   height: 30px;
   margin-left: 50px;
 }
