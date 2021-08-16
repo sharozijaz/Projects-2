@@ -187,7 +187,7 @@ a {
 } */
 .card__image {
   grid-area: image;
-  background: url(./images/alex-loup-6hgrfOJhr74-unsplash.jpg);
+  background: url(/images/alex-loup-6hgrfOJhr74-unsplash.jpg);
   background-size: cover;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
@@ -220,7 +220,7 @@ a {
 /*! user REview Section */
 .review__section {
   margin-top: 5rem;
-  background-image: url(./images/scott-webb-hDyO6rr3kqk-unsplash.jpg);
+  background-image: url(/images/scott-webb-hDyO6rr3kqk-unsplash.jpg);
   background-size: cover;
   background-position: bottom;
   height: 80vh;
